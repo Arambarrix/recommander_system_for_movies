@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="renamings">
+            <config key="0">
+                <entry key="oldName" type="xstring" value="Column0"/>
+                <entry key="newName" type="xstring" value="movie_id"/>
+            </config>
+            <config key="1">
+                <entry key="oldName" type="xstring" value="Column1"/>
+                <entry key="newName" type="xstring" value="movie_title"/>
+            </config>
+            <config key="2">
+                <entry key="oldName" type="xstring" value="Column2"/>
+                <entry key="newName" type="xstring" value="release_date"/>
+            </config>
+            <config key="3">
+                <entry key="oldName" type="xstring" value="Column3"/>
+                <entry key="newName" type="xstring" value=" video_release_date"/>
+            </config>
+            <config key="4">
+                <entry key="oldName" type="xstring" value="Column4"/>
+                <entry key="newName" type="xstring" value="IMDb_URL"/>
+            </config>
+            <config key="5">
+                <entry key="oldName" type="xstring" value="Column5"/>
+                <entry key="newName" type="xstring" value="unknown"/>
+            </config>
+            <config key="6">
+                <entry key="oldName" type="xstring" value="Column6"/>
+                <entry key="newName" type="xstring" value="Action"/>
+            </config>
+            <config key="7">
+                <entry key="oldName" type="xstring" value="Column7"/>
+                <entry key="newName" type="xstring" value="Adventure"/>
+            </config>
+            <config key="8">
+                <entry key="oldName" type="xstring" value="Column8"/>
+                <entry key="newName" type="xstring" value="Animation"/>
+            </config>
+            <config key="9">
+                <entry key="oldName" type="xstring" value="Column9"/>
+                <entry key="newName" type="xstring" value="Children_s"/>
+            </config>
+            <config key="10">
+                <entry key="oldName" type="xstring" value="Column10"/>
+                <entry key="newName" type="xstring" value="Comedy"/>
+            </config>
+            <config key="11">
+                <entry key="oldName" type="xstring" value="Column11"/>
+                <entry key="newName" type="xstring" value="Crime"/>
+            </config>
+            <config key="12">
+                <entry key="oldName" type="xstring" value="Column12"/>
+                <entry key="newName" type="xstring" value="Documentary"/>
+            </config>
+            <config key="13">
+                <entry key="oldName" type="xstring" value="Column13"/>
+                <entry key="newName" type="xstring" value="Drama"/>
+            </config>
+            <config key="14">
+                <entry key="oldName" type="xstring" value="Column14"/>
+                <entry key="newName" type="xstring" value="Fantasy"/>
+            </config>
+            <config key="15">
+                <entry key="oldName" type="xstring" value="Column15"/>
+                <entry key="newName" type="xstring" value="Film-Noir"/>
+            </config>
+            <config key="16">
+                <entry key="oldName" type="xstring" value="Column16"/>
+                <entry key="newName" type="xstring" value="Horror"/>
+            </config>
+            <config key="17">
+                <entry key="oldName" type="xstring" value="Column17"/>
+                <entry key="newName" type="xstring" value="Musical"/>
+            </config>
+            <config key="18">
+                <entry key="oldName" type="xstring" value="Column18"/>
+                <entry key="newName" type="xstring" value="Mystery"/>
+            </config>
+            <config key="19">
+                <entry key="oldName" type="xstring" value="Column19"/>
+                <entry key="newName" type="xstring" value="Romance"/>
+            </config>
+            <config key="20">
+                <entry key="oldName" type="xstring" value="Column20"/>
+                <entry key="newName" type="xstring" value="Sci-Fi"/>
+            </config>
+            <config key="21">
+                <entry key="oldName" type="xstring" value="Column21"/>
+                <entry key="newName" type="xstring" value="Thriller"/>
+            </config>
+            <config key="22">
+                <entry key="oldName" type="xstring" value="Column22"/>
+                <entry key="newName" type="xstring" value="War"/>
+            </config>
+            <config key="23">
+                <entry key="oldName" type="xstring" value="Column23"/>
+                <entry key="newName" type="xstring" value="Western"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Renamer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202407050813"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.0.v202407050813"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Renamer"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1682, Cols: 24"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="35e20aa5-3a7a-4160-8788-3e43fa29ceac"/>
+    </config>
+</config>
