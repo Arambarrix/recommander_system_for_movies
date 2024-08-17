@@ -1,1 +1,7 @@
+C:\Users\William\Documents\dataset\ml-100k\u.data
+C:\Users\William\Documents\dataset\ml-100k\u.item
+C:\Users\William\Documents\dataset\ml-100k\u.user
+C:\Users\William\Downloads\recommender_system_for_films\data\raw\ratings.csv
+C:\Users\William\Downloads\recommender_system_for_films\data\raw\items.csv
+C:\Users\William\Downloads\recommender_system_for_films\data\raw\users.csv
 C:\Users\William\Downloads\recommender_system_for_films\data\output\items.csv

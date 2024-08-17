@@ -58,3 +58,40 @@
 2024-08-16 14:02:39,293 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
 2024-08-16 14:02:42,155 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'hadoop.dll' at hadoop home creation.
 2024-08-16 14:02:42,155 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'msvcr100.dll' at hadoop home creation.
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : AccŠs au registre demand‚ non autoris‚.
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Au caractŠre Ligne:1 : 1
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-08-17 18:08:36,129 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-08-17 18:08:36,555 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'hadoop.dll' at hadoop home creation.
+2024-08-17 18:08:36,555 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'msvcr100.dll' at hadoop home creation.
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : AccŠs au registre demand‚ non autoris‚.
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Au caractŠre Ligne:1 : 1
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-08-17 18:13:31,695 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-08-17 18:13:32,739 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'hadoop.dll' at hadoop home creation.
+2024-08-17 18:13:32,739 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'msvcr100.dll' at hadoop home creation.
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : PowerShell command powershell -inputformat none -outputformat text -NonInteractive -Command Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Defender\Exclusions\Processes' -ErrorAction Stop | Select-Object -ExpandProperty Property did not terminate successfully.
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Stderr is:
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Get-Item : AccŠs au registre demand‚ non autoris‚.
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : Au caractŠre Ligne:1 : 1
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + Get-Item -Path 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windo ...
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  : + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + CategoryInfo          : PermissionDenied: (HKEY_LOCAL_MACH...sions\Processes:String) [Get-Item], SecurityExcepti 
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :    on
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :     + FullyQualifiedErrorId : System.Security.SecurityException,Microsoft.PowerShell.Commands.GetItemCommand
+2024-08-17 18:18:49,942 : ERROR : main :  : WindowsDefenderExceptionHandler :  :  :  
+2024-08-17 18:18:50,366 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'hadoop.dll' at hadoop home creation.
+2024-08-17 18:18:50,366 : WARN  : ForkJoinPool.commonPool-worker-1 :  : HadoopInitializer :  :  : Unable to find 'msvcr100.dll' at hadoop home creation.
+2024-08-17 18:20:08,485 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:11 : Please specify a file

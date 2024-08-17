@@ -26,7 +26,7 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="C:\Users\William\Downloads\recommender_system_for_films\data\ml-100k\u.item"/>
+                    <entry key="path" type="xstring" value="C:\Users\William\Documents\dataset\ml-100k\u.item"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -70,7 +70,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="C:\Users\William\Downloads\recommender_system_for_films\data\ml-100k\u.item">
+                <config key="C:\Users\William\Documents\dataset\ml-100k\u.item">
                     <entry key="num_columns" type="xint" value="24"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="Column0"/>
@@ -858,7 +858,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="C:\Users\William\Downloads\recommender_system_for_films\data\ml-100k\u.item"/>
+            <entry key="source_group_id" type="xstring" value="C:\Users\William\Documents\dataset\ml-100k\u.item"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -953,6 +953,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3cbb456d-c7c9-4099-8998-17e2b660def3"/>
+        <entry key="file_store_id" type="xstring" value="440add8c-7beb-42c5-9010-e4a0180c69db"/>
     </config>
 </config>

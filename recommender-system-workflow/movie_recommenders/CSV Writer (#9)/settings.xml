@@ -26,13 +26,13 @@
                 <config key="path">
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="C:\Users\William\Downloads\recommender_system_for_films\data\output\ratings.csv"/>
+                    <entry key="path" type="xstring" value="C:\Users\William\Downloads\recommender_system_for_films\data\raw\ratings.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
                     <entry key="EnabledStatus" type="xboolean" value="true"/>
                 </config>
-                <entry key="create_missing_folders" type="xboolean" value="false"/>
+                <entry key="create_missing_folders" type="xboolean" value="true"/>
                 <entry key="if_path_exists" type="xstring" value="overwrite"/>
             </config>
             <entry key="column_delimiter" type="xstring" value=","/>
@@ -88,6 +88,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9996bc0d-7670-413c-bf1a-9ec3edf3054f"/>
+        <entry key="file_store_id" type="xstring" value="6acd1e55-5e80-4b5a-8092-227f9673079b"/>
     </config>
 </config>
